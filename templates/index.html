@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter</title>
+    <style>
+        .button {
+    display: inline;
+    width: 115px;
+    height: 25px;
+    background: #4E9CAF;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    line-height: 25px;
+}
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center;">Counter: {{session['count']}}</h1>
+    <Div style="text-align: center;"> 
+        <a href="/index" class="button">Increase</a>
+        <a href="/destroy_session" class="button">Reset</a>
+    </Div>
+</body>
+</html>
